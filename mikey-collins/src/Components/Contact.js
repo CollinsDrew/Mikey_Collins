@@ -1,45 +1,39 @@
 import React from "react";
+import "../Styles/Contact.css";
 import { Link, useParams } from "react-router-dom";
 import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { SocialIcon } from "react-social-icons";
 
 function Contact() {
   return (
     <div className="mainContainer">
-      <h1>Contact</h1>
+      {/* <h1 className="title">Contact</h1> */}
 
       <div className="contactList">
         <ul>
           <li>
-            <a href="https://twitter.com/MikeyColsmusic">
-              <i>
-                <FaTwitter />
-              </i>
-              Twitter
-            </a>
+            <SocialIcon
+              url="https://twitter.com/MikeyColsmusic"
+              //   style={{ height: 150, width: 150 }}
+            />
           </li>
           <li>
-            <a href="https://www.facebook.com/mikeycollinsmusic/">
-              <i>
-                <FaFacebook />
-              </i>
-              Facebook
-            </a>
+            <SocialIcon
+              url="https://www.facebook.com/mikeycollinsmusic/"
+              //   style={{ height: 150, width: 150 }}
+            />
           </li>
           <li>
-            <a href="https://www.instagram.com/mikeycolsmusic/">
-              <i>
-                <FaInstagram />
-              </i>
-              Instagram
-            </a>
+            <SocialIcon
+              url="https://www.instagram.com/mikeycolsmusic/"
+              //   style={{ height: 150, width: 150 }}
+            />
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/mike-collins-a83460145/">
-              <i>
-                <FaLinkedin />
-              </i>
-              LinkedIn
-            </a>
+            <SocialIcon
+              url="https://www.linkedin.com/in/mike-collins-a83460145/"
+              //   style={{ height: 150, width: 150 }}
+            />
           </li>
         </ul>
       </div>
