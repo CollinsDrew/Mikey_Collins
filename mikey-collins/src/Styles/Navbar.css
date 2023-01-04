@@ -76,6 +76,7 @@ nav {
     background-color: var(--mainColor);
     transition: 1s;
     transform: translateY(-100vh);
+    overflow: hidden;
   }
 
   header .responsive_nav {

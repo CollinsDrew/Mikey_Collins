@@ -26,6 +26,7 @@ function Contact() {
         <ul>
           <li>
             <SocialIcon
+              className="social-icon"
               url="https://twitter.com/MikeyColsmusic"
               style={{ height: 100, width: 100 }}
             />
@@ -33,7 +34,7 @@ function Contact() {
           <br></br>
           <li>
             <SocialIcon
-              className="socialIcon"
+              className="social-icon"
               url="https://www.facebook.com/mikeycollinsmusic/"
               style={{ height: 100, width: 100 }}
             />
@@ -41,6 +42,7 @@ function Contact() {
           <br></br>
           <li>
             <SocialIcon
+              className="social-icon"
               url="https://www.instagram.com/mikeycolsmusic/"
               style={{ height: 100, width: 100 }}
             />
@@ -48,6 +50,7 @@ function Contact() {
           <br></br>
           <li>
             <SocialIcon
+              className="social-icon"
               url="https://www.linkedin.com/in/mike-collins-a83460145/"
               style={{ height: 100, width: 100 }}
             />
@@ -59,12 +62,13 @@ function Contact() {
         </h3>
         <div className="emailTo">
           <SocialIcon
+            className="social-icon"
             url="mailto:hello@mikeycollins.co.uk"
             network="email"
-            bgColor="#ffffff"
-            style={{ height: 25, width: 25 }}
+            // bgColor="#ffffff"
+            style={{ height: 100, width: 100 }}
           />
-          <FaEnvelope size={100} />
+          {/* <FaEnvelope size={100} /> */}
         </div>
       </div>
     </div>

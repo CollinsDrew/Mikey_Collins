@@ -28,6 +28,7 @@ ul {
 
 li {
   justify-content: space-around;
+  z-index: -1;
 }
 
 @media (max-width: 480px) {
@@ -37,9 +38,16 @@ li {
     align-items: center;
     list-style-type: none;
     justify-content: space-around;
+    z-index: -1;
   }
   .contactList li {
     margin: 10px 0;
     padding: 40px 0;
+    z-index: -1;
+  }
+
+  .social-icon {
+    z-index: -1;
+    overflow: hidden;
   }
 }
