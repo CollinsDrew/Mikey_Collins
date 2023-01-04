@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import { Navbar } from "./Components/Navbar";
 import { Contact } from "./Components/Contact";
+import { Home } from "./Components/Home";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>

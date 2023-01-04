@@ -28,7 +28,6 @@ ul {
 
 li {
   justify-content: space-around;
-  z-index: -1;
 }
 
 @media (max-width: 480px) {

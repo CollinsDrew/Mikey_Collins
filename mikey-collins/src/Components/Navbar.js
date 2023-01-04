@@ -15,7 +15,9 @@ function Navbar() {
     <header>
       <h3>Mikey Collins Music</h3>
       <nav ref={navRef}>
-        <h2>Home</h2>
+        <Link to="/">
+          <h2>Home</h2>
+        </Link>
 
         <Link to="/contact">
           <h2>Contact</h2>

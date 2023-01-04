@@ -1,13 +1,13 @@
 import React from "react";
 import "../Styles/Contact.css";
 import { Link, useParams } from "react-router-dom";
-import {
-  FaTwitter,
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin,
-  FaEnvelope,
-} from "react-icons/fa";
+// import {
+//   FaTwitter,
+//   FaFacebook,
+//   FaInstagram,
+//   FaLinkedin,
+//   FaEnvelope,
+// } from "react-icons/fa";
 import { SocialIcon } from "react-social-icons";
 
 function Contact() {
@@ -58,7 +58,7 @@ function Contact() {
         </ul>
 
         <h3 className="intro">
-          For any inquiries, please feel free to send an email
+          For any enquiries, please feel free to send an email
         </h3>
         <div className="emailTo">
           <SocialIcon
