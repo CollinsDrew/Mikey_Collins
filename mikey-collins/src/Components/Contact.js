@@ -57,12 +57,15 @@ function Contact() {
         <h3 className="intro">
           For any inquiries, please feel free to send an email
         </h3>
-        <SocialIcon
-          className="emailTo"
-          url="mailto:hello@mikeycollins.co.uk"
-          network="email"
-          style={{ height: 100, width: 100 }}
-        ></SocialIcon>
+        <div className="emailTo">
+          <SocialIcon
+            url="mailto:hello@mikeycollins.co.uk"
+            network="email"
+            bgColor="#ffffff"
+            style={{ height: 25, width: 25 }}
+          />
+          <FaEnvelope size={100} />
+        </div>
       </div>
     </div>
   );
