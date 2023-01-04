@@ -1,34 +1,42 @@
-.contactList {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+.title {
+  font-family: "Titillium Web", sans-serif;
+  text-align: center;
+  padding: 32px;
+}
+
+.intro {
+  font-family: "Titillium Web", sans-serif;
+  text-align: center;
+  padding: 32px;
+}
+
+.emailTo {
+  margin: 0 auto;
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.contactList li {
-  flex: 0 0 30%;
-  text-align: center;
+li {
+  justify-content: space-around;
 }
 
-@media (max-width: 600px) {
-  .contactList li {
-    flex: 0 0 45%;
-  }
-
-  ul {
+@media (max-width: 480px) {
+  .contactList ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     list-style-type: none;
+    justify-content: space-around;
   }
-}
-
-@media (max-width: 400px) {
   .contactList li {
-    flex: 0 0 90%;
-  }
-
-  ul {
-    list-style-type: none;
+    margin: 10px 0;
+    padding: 40px 0;
   }
 }
