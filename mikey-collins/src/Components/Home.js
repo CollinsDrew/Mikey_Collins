@@ -1,14 +1,15 @@
 import React from "react";
 import "../Styles/Home.css";
-import MCM from "../Images/MCM.jpeg";
+
 import Hoick from "../Images/Hoick.jpeg";
+import Hero from "../Images/HeroImage.jpg";
 import { SocialIcon } from "react-social-icons";
 
 function Home() {
   return (
     <div className="home-page">
       {/* <h1 className="home-page__title">Mikey Collins Music</h1> */}
-      <img src={MCM} alt="Mikey Collins" className="home-page__image" />
+      <img src={Hero} alt="Mikey Collins" className="home-page__image" />
       <p className="home-page__description">
         Welcome to the official website for Mikey Collins, the future of
         electronic music. Here you can find all the latest information on my new
