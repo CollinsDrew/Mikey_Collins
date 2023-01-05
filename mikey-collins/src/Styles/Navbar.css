@@ -12,10 +12,10 @@
 }
 
 :root {
-  --mainColor: #29335c;
+  --mainColor: #2f3640;
   --mainColorLight: #5767aa;
-  --secondaryColor: #db2b39;
-  --textColor: #eee;
+  --secondaryColor: white;
+  --textColor: lightgray;
 }
 
 header {

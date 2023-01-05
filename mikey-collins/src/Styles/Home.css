@@ -1,0 +1,101 @@
+.home-page {
+  text-align: center;
+  color: white;
+  background-color: #353b48;
+  font-family: "Roboto", sans-serif;
+}
+
+.home-page__title {
+  font-size: 64px;
+  margin-top: 0;
+}
+
+.home-page__image {
+  width: 100%;
+  height: auto;
+  /* border-radius: 50%; */
+  /* margin: 32px 0; */
+}
+
+.home-page__description {
+  font-size: 18px;
+  margin: 16px;
+}
+
+.home-page__banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 512px;
+  background-color: #2f3640;
+}
+
+.home-page__banner-image {
+  width: 512px;
+  height: 512px;
+}
+
+.home-page__banner-text {
+  color: white;
+  margin-right: 32px;
+}
+
+.home-page__banner-title {
+  font-size: 64px;
+  margin-top: 0;
+}
+
+.home-page__banner-artist {
+  font-size: 32px;
+  margin-top: 0;
+  color: lightgray;
+}
+
+.home-page__banner-description {
+  font-size: 18px;
+  margin: 16px;
+}
+
+.home-page__banner-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 32px;
+}
+
+@media (max-width: 768px) {
+  .home-page__title {
+    font-size: 10px;
+  }
+  .home-page__image {
+    width: 100%;
+    height: auto;
+  }
+  .home-page__description {
+    font-size: 16px;
+  }
+
+  .home-page__banner {
+    flex-direction: column;
+    height: auto;
+  }
+  .home-page__banner-image {
+    width: 256px;
+    height: 256px;
+    margin: 0 auto;
+  }
+  .home-page__banner-text {
+    margin: 16px;
+  }
+  .home-page__banner-title {
+    font-size: 32px;
+  }
+  .home-page__banner-description {
+    font-size: 16px;
+  }
+
+  .home-page__banner-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
