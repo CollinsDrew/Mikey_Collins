@@ -3,6 +3,10 @@ import "../Styles/Home.css";
 
 import Hoick from "../Images/Hoick.jpeg";
 import Hero from "../Images/HeroImage.jpg";
+import LunchMoney from "../Images/LunchMoney.jpeg";
+import Potato from "../Images/potato.jpeg";
+import Liminality from "../Images/liminality.jpeg";
+
 import { SocialIcon } from "react-social-icons";
 
 function Home() {
@@ -41,6 +45,43 @@ function Home() {
           <div className="home-page__banner-icons">
             <SocialIcon url="https://open.spotify.com/artist/0in8U5LueFlvZQRM4A1WWZ" />
           </div>
+        </div>
+      </div>
+      <br></br>
+      <h2 className="recentWork">Recent Work</h2>
+      <br></br>
+      <div className="cardContainer">
+        {/* card 1 */}
+        <div className="cards">
+          <img src={LunchMoney} alt="Lunch Money Life" />
+          <h2 className="cardTitle">Sacrifice</h2>
+          <h3>Lunch Money Life</h3>
+          <SocialIcon
+            url="https://open.spotify.com/album/4fbykSaOFsqxeDxr536naf?si=hz0IE4NiSfK5rzxQrkwCwA&nd=1"
+            className="spotify"
+          />
+        </div>
+
+        {/* card 2 */}
+        <div className="cards">
+          <img src={Liminality} alt="Liminality" />
+          <h2 className="cardTitle">Liminality</h2>
+          <h3>Don't Problem</h3>
+          <SocialIcon
+            url="https://open.spotify.com/album/0NBozp4sM4S1BgxdD8uKIC?si=zsfWuFDmQoehve2hxAgqzQ&nd=1"
+            className="spotify"
+          />
+        </div>
+
+        {/* card 3 */}
+        <div className="cards">
+          <img src={Potato} alt="Potato" />
+          <h2 className="cardTitle">Roll</h2>
+          <h3>Potato</h3>
+          <SocialIcon
+            url="https://open.spotify.com/album/0bKEkanTdG7nAsxHBuNp1H?si=9QShULHZQ8url5iU75HpCg&nd=1"
+            className="spotify"
+          />
         </div>
       </div>
     </div>
