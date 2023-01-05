@@ -14,11 +14,7 @@ function Home() {
     <div className="home-page">
       {/* <h1 className="home-page__title">Mikey Collins Music</h1> */}
       <img src={Hero} alt="Mikey Collins" className="home-page__image" />
-      <p className="home-page__description">
-        Welcome to the official website for Mikey Collins, the future of
-        electronic music. Here you can find all the latest information on my new
-        releases, tour dates, and more.
-      </p>
+      <p className="home-page__description">Engineer, Producer, Musician</p>
 
       <div className="home-page__banner">
         <img
@@ -43,7 +39,10 @@ function Home() {
             able to dance to.
           </p>
           <div className="home-page__banner-icons">
-            <SocialIcon url="https://open.spotify.com/artist/0in8U5LueFlvZQRM4A1WWZ" />
+            <SocialIcon
+              url="https://open.spotify.com/artist/0in8U5LueFlvZQRM4A1WWZ"
+              className="mainSpotify"
+            />
           </div>
         </div>
       </div>

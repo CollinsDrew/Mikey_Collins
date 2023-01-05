@@ -132,6 +132,17 @@
   margin: 5px;
 }
 
+.mainSpotify:hover {
+  border: 1px solid #44bd32;
+  border-radius: 50%;
+  box-shadow: 0 7px 50px 10px #4cd137;
+  transform: scale(1.015);
+  filter: brightness(1.3);
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.5s all;
+}
+
 .recentWork {
   text-align: center;
   display: flex;
