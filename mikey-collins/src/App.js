@@ -10,6 +10,7 @@ import {
 import { Navbar } from "./Components/Navbar";
 import { Contact } from "./Components/Contact";
 import { Home } from "./Components/Home";
+import { Shows } from "./Components/Shows";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/shows" element={<Shows />} />
         </Routes>
       </div>
     </BrowserRouter>

@@ -23,7 +23,9 @@ function Navbar() {
           <h2>Contact</h2>
         </Link>
 
-        <h2>Shows</h2>
+        <Link to="/shows">
+          <h2>Shows</h2>
+        </Link>
         <h2>Press</h2>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />
