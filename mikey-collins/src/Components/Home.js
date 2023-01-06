@@ -6,6 +6,7 @@ import Hero from "../Images/HeroImage.jpg";
 import LunchMoney from "../Images/LunchMoney.jpeg";
 import Potato from "../Images/potato.jpeg";
 import Liminality from "../Images/liminality.jpeg";
+import newHero from "../Images/newHero.jpg";
 
 import { SocialIcon } from "react-social-icons";
 
@@ -13,8 +14,10 @@ function Home() {
   return (
     <div className="home-page">
       {/* <h1 className="home-page__title">Mikey Collins Music</h1> */}
-      <img src={Hero} alt="Mikey Collins" className="home-page__image" />
-      <p className="home-page__description">Engineer, Producer, Musician</p>
+      <img src={newHero} alt="Mikey Collins" className="home-page__image" />
+      {/* <p className="home-page__description"></p> */}
+
+      <br></br>
 
       <div className="home-page__banner">
         <img
