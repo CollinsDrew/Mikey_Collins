@@ -59,14 +59,148 @@ function Shows() {
             </p>
           </div>
         </div>
-        <br></br>
+        {/* <br></br> */}
+
         <div className="parallax2">
-          {/* <h2 className="recentWork">Recent Work</h2> */}
+          {/* <h1 className="recentWork">Recent Work</h1> */}
         </div>
         <br></br>
+
+        {/* Cards */}
+        {/* Card 1 */}
         <div className="cardContainer">
-          {/* card 1 */}
-          <div className="cards">
+          <div className="card">
+            <div className="face face1">
+              <div className="content">
+                <h2>Sacrifice</h2>
+                <h3>Lunch Money Life</h3>
+              </div>
+            </div>
+            <div className="face face2">
+              <div className="content">
+                <p>
+                  Lunch Money Life is a five-piece band with no remit. All music
+                  composed communally and spontaneously.
+                </p>
+                {/* <img src={LunchMoney} alt="Lunch Money Life" /> */}
+                <SocialIcon
+                  url="https://open.spotify.com/album/4fbykSaOFsqxeDxr536naf?si=hz0IE4NiSfK5rzxQrkwCwA&nd=1"
+                  className="spotify"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Card 2 */}
+          <div className="card">
+            <div className="face face1">
+              <div className="content">
+                <h2>Liminality</h2>
+                <h3>Don't Problem</h3>
+              </div>
+            </div>
+            <div className="face face2">
+              <div className="content">
+                <p>
+                  Eight man brass and drums monster, Don't Problem, from South
+                  East London, combine genres in a groundbreaking and innovative
+                  way to reimagine what a brass band is capable of.
+                </p>
+                <SocialIcon
+                  url="https://open.spotify.com/album/0NBozp4sM4S1BgxdD8uKIC?si=zsfWuFDmQoehve2hxAgqzQ&nd=1"
+                  className="spotify"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Card 3 */}
+          <div className="card">
+            <div className="face face1">
+              <div className="content">
+                <h2>Roll</h2>
+                <h3>Potato</h3>
+              </div>
+            </div>
+            <div className="face face2">
+              <div className="content">
+                <p>lorem ipsum</p>
+                <SocialIcon
+                  url="https://open.spotify.com/album/0bKEkanTdG7nAsxHBuNp1H?si=9QShULHZQ8url5iU75HpCg&nd=1"
+                  className="spotify"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Card 4 */}
+          <div className="card">
+            <div className="face face1">
+              <div className="content">
+                <h2>New Works</h2>
+                <h3>Tigercats</h3>
+              </div>
+            </div>
+            <div className="face face2">
+              <div className="content">
+                <p>
+                  The New Works EP is another step into the new for Tigercats,
+                  the sound of an increasingly political band, unbound by the
+                  records they’ve made previously, and enjoying the freedom of
+                  exploring and experimenting for these 5 new tracks.
+                </p>
+                <SocialIcon
+                  url="https://open.spotify.com/album/3F7Rchhjw5i1CXj9y3gyar?si=89wuO3zwSken2tIX5OKTfw&nd=1"
+                  className="spotify"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Card 5 */}
+          <div className="card">
+            <div className="face face1">
+              <div className="content">
+                <h2>Hexentanzplatz</h2>
+                <h3>Alice Hubble</h3>
+              </div>
+            </div>
+            <div className="face face2">
+              <div className="content">
+                <p>
+                  Hexentanzplatz is the second album from Alice Hubble and the
+                  follow up to the critically acclaimed "Polarlichter'.
+                  Engineered by Alice Hubley, Sam Ayresm Rachel Kenedy and Mike
+                  Collins.
+                </p>
+                <SocialIcon
+                  url="https://open.spotify.com/album/7xaVhmgZ8IqVnWrBcdd971?si=0X00addTQ5OG-uRIwPpcUQ&nd=1"
+                  className="spotify"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Card 6 */}
+          <div className="card">
+            <div className="face face1">
+              <div className="content">
+                <h2>Lengsel Blir Til Gjemsel</h2>
+                <h3>Virkelig</h3>
+              </div>
+            </div>
+            <div className="face face2">
+              <div className="content">
+                <p>lorem ipsum</p>
+                <SocialIcon
+                  url="https://open.spotify.com/album/3byuP2smkehUGTnlWwHzlz?si=utNAeasiS9itJX1h0lc2dw&nd=1"
+                  className="spotify"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* <div className="cards">
             <img src={LunchMoney} alt="Lunch Money Life" />
             <h2 className="cardTitle">Sacrifice</h2>
             <h3>Lunch Money Life</h3>
@@ -76,7 +210,6 @@ function Shows() {
             />
           </div>
 
-          {/* card 2 */}
           <div className="cards">
             <img src={Liminality} alt="Liminality" />
             <h2 className="cardTitle">Liminality</h2>
@@ -87,7 +220,6 @@ function Shows() {
             />
           </div>
 
-          {/* card 3 */}
           <div className="cards">
             <img src={Potato} alt="Potato" />
             <h2 className="cardTitle">Roll</h2>
@@ -96,7 +228,7 @@ function Shows() {
               url="https://open.spotify.com/album/0bKEkanTdG7nAsxHBuNp1H?si=9QShULHZQ8url5iU75HpCg&nd=1"
               className="spotify"
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
