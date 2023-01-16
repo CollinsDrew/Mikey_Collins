@@ -13,7 +13,7 @@ function Navbar() {
 
   return (
     <header>
-      <h3>Mikey Collins Music</h3>
+      {/* <h3>Mikey Collins Music</h3> */}
       <nav ref={navRef}>
         <Link to="/">
           <h2>Home</h2>

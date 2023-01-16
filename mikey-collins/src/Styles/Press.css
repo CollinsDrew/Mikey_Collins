@@ -33,11 +33,11 @@
   display: flex;
 }
 
-.review-card img {
+/* .review-card img {
   max-height: 300px;
   max-width: 300px;
   border-radius: 10px;
-}
+} */
 
 .review-content {
   margin-left: 20px;

@@ -14,8 +14,9 @@ function Press() {
       <h1 className="page-title">Press and Reviews</h1>
       {/* <br></br>
       <br></br> */}
+      <hr></hr>
       <div className="review-card">
-        <img src={clash} alt="Clash Music" />
+        <img src={clash} alt="Clash Music" className="scotImage" />
         <p className="review-content">
           Mikey Collins spent almost 10 years of his life as a member of Allo
           Darlin', a much-loved – and dearly-missed – indie pop ensemble.

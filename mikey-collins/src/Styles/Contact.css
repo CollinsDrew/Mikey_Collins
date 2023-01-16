@@ -16,11 +16,11 @@
   flex-wrap: wrap;
 }
 
-.home-page__image {
+/* .home-page__image {
   width: 100%;
   height: auto;
   overflow: hidden;
-}
+} */
 
 .card {
   position: relative;
