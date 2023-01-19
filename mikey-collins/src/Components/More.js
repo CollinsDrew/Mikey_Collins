@@ -10,6 +10,51 @@ import seazoo from "../Images/Seazoo.jpeg";
 import longy from "../Images/longy.jpeg";
 
 function More() {
+  const projects = [
+    {
+      artist: "Johanna Warren",
+      title: "'Lesson For Mutants'",
+      image: johanna,
+      credit: "Engineering and Mix",
+      link: "https://open.spotify.com/album/7f82oLZDQvL6K3pIj54n7k",
+    },
+    {
+      artist: "lunch Money Life",
+      title: "'Sacrifice'",
+      image: lunch,
+      credit: "Engineering",
+      link: "https://open.spotify.com/album/4fbykSaOFsqxeDxr536naf?si=hz0IE4NiSfK5rzxQrkwCwA&nd=1",
+    },
+    {
+      artist: "Potato",
+      title: "'Roll'",
+      image: potato,
+      credit: "Engineering & Mix",
+      link: "https://open.spotify.com/album/0bKEkanTdG7nAsxHBuNp1H?si=9QShULHZQ8url5iU75HpCg&nd=1",
+    },
+    {
+      artist: "Ben Ramsden",
+      title: "'To Care",
+      image: ramsden,
+      credit: "Engineering & Mix",
+      link: "https://open.spotify.com/album/0mRXaXsOuXBoGmZlnoD5J8",
+    },
+    {
+      artist: "Seazoo",
+      title: "'Beaten By The Rain'",
+      image: seazoo,
+      credit: "Mix",
+      link: "https://open.spotify.com/album/2O7urdkQCW0kGgiuzsAeCC",
+    },
+    {
+      artist: "Longy",
+      title: "'The Underclass'",
+      image: longy,
+      credit: "Producer & Engineer",
+      link: "https://open.spotify.com/album/3byuP2smkehUGTnlWwHzlz?si=utNAeasiS9itJX1h0lc2dw&nd=1",
+    },
+  ];
+
   return (
     <div className="container-more">
       <div className="parallax2"></div>
@@ -19,107 +64,23 @@ function More() {
         <h1>Recent Work</h1>
       </div>
       <div class="courses-container">
-        {/* Item 1 */}
-        <div class="course">
-          <div class="course-preview">
-            <img src={johanna} />
-          </div>
-          <div class="course-info">
-            <div class="progress-container"></div>
-            <h3 className="content-info">'Lesson for Mutants'</h3>
-            <h2 className="content-info">Johanna Warren</h2>
-            <h5 className="content-info">Engineering and Mix</h5>
+        {projects.map((projects, index) => (
+          <div class="course" key={index}>
+            <div class="course-preview">
+              <img src={projects.image} className="resize" />
+            </div>
+            <div class="course-info">
+              <div class="progress-container"></div>
+              <h3 class="content-info">{projects.title}</h3>
+              <h2 class="content-info">{projects.artist}</h2>
+              <h5 class="content-info">{projects.credit}</h5>
 
-            <div className="spotify">
-              <SocialIcon url="https://open.spotify.com/album/7f82oLZDQvL6K3pIj54n7k" />
+              <div class="spotify">
+                <SocialIcon url={projects.link} />
+              </div>
             </div>
           </div>
-        </div>
-
-        {/* Item 2 */}
-        <div class="course">
-          <div class="course-preview">
-            <img src={lunch} className="resize" />
-          </div>
-          <div class="course-info">
-            <div class="progress-container"></div>
-            <h3 className="content-info">'Sacrifice'</h3>
-            <h2 className="content-info">Lunch Money Life</h2>
-            <h5 className="content-info">Engineering</h5>
-
-            <div className="spotify">
-              <SocialIcon url="https://open.spotify.com/album/4fbykSaOFsqxeDxr536naf?si=hz0IE4NiSfK5rzxQrkwCwA&nd=1" />
-            </div>
-          </div>
-        </div>
-
-        {/* Item 3 */}
-        <div class="course">
-          <div class="course-preview">
-            <img src={potato} className="resize" />
-          </div>
-          <div class="course-info">
-            <div class="progress-container"></div>
-            <h3 className="content-info">''Roll'</h3>
-            <h2 className="content-info">Potato</h2>
-            <h5 className="content-info">Engineering & Mix</h5>
-
-            <div className="spotify">
-              <SocialIcon url="https://open.spotify.com/album/0bKEkanTdG7nAsxHBuNp1H?si=9QShULHZQ8url5iU75HpCg&nd=1" />
-            </div>
-          </div>
-        </div>
-
-        {/* Item 4 */}
-        <div class="course">
-          <div class="course-preview">
-            <img src={ramsden} className="resize" />
-          </div>
-          <div class="course-info">
-            <div class="progress-container"></div>
-            <h3 className="content-info">'To Care'</h3>
-            <h2 className="content-info">Ben Ramsden with Korda Quartet</h2>
-            <h5 className="content-info">Engineering & Mix</h5>
-
-            <div className="spotify">
-              <SocialIcon url="https://open.spotify.com/album/0mRXaXsOuXBoGmZlnoD5J8" />
-            </div>
-          </div>
-        </div>
-
-        {/* Item 5 */}
-        <div class="course">
-          <div class="course-preview">
-            <img src={seazoo} className="resize" />
-          </div>
-          <div class="course-info">
-            <div class="progress-container"></div>
-            <h3 className="content-info">'Beaten by the Rain'</h3>
-            <h2 className="content-info">Seazoo</h2>
-            <h5 className="content-info">Mix</h5>
-
-            <div className="spotify">
-              <SocialIcon url="https://open.spotify.com/album/2O7urdkQCW0kGgiuzsAeCC" />
-            </div>
-          </div>
-        </div>
-
-        {/* Item 6 */}
-        <div class="course">
-          <div class="course-preview">
-            <img src={longy} className="resize" />
-          </div>
-          <div class="course-info">
-            <div class="progress-container"></div>
-            <h3 className="content-info">'The Underclass'</h3>
-            <h2 className="content-info">Longy</h2>
-            <h5 className="content-info">Producer & Engineering</h5>
-
-            <div className="spotify">
-              <SocialIcon url="https://open.spotify.com/album/3byuP2smkehUGTnlWwHzlz?si=utNAeasiS9itJX1h0lc2dw&nd=1" />
-            </div>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );
