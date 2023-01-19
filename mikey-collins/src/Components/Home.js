@@ -22,11 +22,18 @@ function Home() {
             {/* <h1 className="home-page__banner-title"></h1> */}
             <h3 className="home-page__banner-artist">Mikey Collins</h3>
             <p className="home-page__banner-description">
-              Producer, mix engineer and musician based on the Kent coast.
-              working mostly based out of his residential studio in Ramsgate –
-              Big Jelly Studios – have a browse on this site for recent work,
-              upcoming shows (both with Allo Darlin' and solo) and get in touch
-              to say heh!
+              Mikey Collins is a multi-talented artist who has made a name for
+              himself in the music industry as a producer, mixing engineer,
+              musician, and songwriter. With a passion for creating innovative
+              and compelling music, Mikey has worked with a wide range of
+              artists and bands, helping them bring their visions to life.
+              Whether he's behind the mixing board or playing on stage, Mikey's
+              dedication to his craft and his unyielding drive to create the
+              best music possible is evident in every project he works on. Based
+              on the Kent coast. working mostly based out of his residential
+              studio in Ramsgate – Big Jelly Studios – have a browse on this
+              site for recent work, upcoming shows (both with Allo Darlin' and
+              solo) and get in touch to say heh!
             </p>
 
             <div className="button">
@@ -39,18 +46,12 @@ function Home() {
               </a>
             </div>
           </div>
-          {/* <img
-            src={bjs}
-            alt="Mikey Collins"
-            className="home-page__banner-image"
-          /> */}
         </div>
         {/* <br></br> */}
 
-        <div className="parallax2">
-          {/* <h1 className="recentWork">Recent Work</h1> */}
-        </div>
-        <br></br>
+        <div className="parallax2"></div>
+
+        <hr></hr>
 
         {/* Cards */}
         {/* Card 1 */}
@@ -181,6 +182,7 @@ function Home() {
             </Link>
           </div>
         </div>
+        <hr></hr>
 
         <div className="home-page__banner_hoick">
           <img

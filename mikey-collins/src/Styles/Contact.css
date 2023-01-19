@@ -16,11 +16,9 @@
   flex-wrap: wrap;
 }
 
-/* .home-page__image {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-} */
+.cardConatiner {
+  margin-top: 50px;
+}
 
 .card {
   position: relative;
