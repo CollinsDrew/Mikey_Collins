@@ -12,9 +12,9 @@
 }
 
 :root {
-  --mainColor: #2f3640;
+  --mainColor: #444;
   --mainColorLight: #5767aa;
-  --secondaryColor: white;
+  --secondaryColor: #ff10f0;
   --textColor: lightgray;
 }
 

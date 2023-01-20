@@ -31,6 +31,10 @@ function Navbar() {
           <h2>Press</h2>
         </Link>
 
+        <Link to={"/more"}>
+          <h2>Recent Work</h2>
+        </Link>
+
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />
         </button>

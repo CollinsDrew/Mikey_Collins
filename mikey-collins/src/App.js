@@ -13,6 +13,7 @@ import { Home } from "./Components/Home";
 import { Shows } from "./Components/Shows";
 import { Press } from "./Components/Press";
 import { More } from "./Components/More";
+import { About } from "./Components/About";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/shows" element={<Shows />} />
           <Route path="/press" element={<Press />} />

@@ -24,16 +24,15 @@ function Contact() {
           </div>
           <div className="face face2">
             <div className="content">
-              <p>
-                {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab
-                repudiandae, explicabo voluptate et hic cum ratione a.
+              <p className="socialLink">
+                Stay connected with Mikey by following his Facebook page, where
+                you can find all the latest news, photos, and videos.
               </p>
               <a
                 href="https://www.facebook.com/mikeycollinsmusic/"
                 type="button"
               >
-                Read More
+                Mikey's Facebook
               </a>
             </div>
           </div>
@@ -49,12 +48,14 @@ function Contact() {
           <div className="face face2">
             <div className="content">
               <p>
-                {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab
-                repudiandae, explicabo voluptate et hic cum ratione a.
+                Keep up with Mikey Collins' latest music news and updates by
+                following his Twitter account! Here you'll find information on
+                upcoming shows, new music releases, and exclusive
+                behind-the-scenes content. Stay connected with Mikey by
+                following his Twitter page.
               </p>
               <a href="https://twitter.com/MikeyColsmusic" type="button">
-                Read More
+                Mikey's Twitter
               </a>
             </div>
           </div>
@@ -68,12 +69,14 @@ function Contact() {
           <div className="face face2">
             <div className="content">
               <p>
-                {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab
-                repudiandae, explicabo voluptate et hic cum ratione a.
+                Get a behind-the-scenes look at Mikey Collins' music career by
+                following him on Instagram! Here you'll find exclusive photos
+                and videos from his shows, recording sessions, and more. Stay
+                connected with Mikey by following his Instagram page, where you
+                can find all the latest updates and photos of him.
               </p>
               <a href="https://www.instagram.com/mikeycolsmusic/" type="button">
-                Read More
+                Mikey's Insta
               </a>
             </div>
           </div>
@@ -87,12 +90,11 @@ function Contact() {
           <div className="face face2">
             <div className="content">
               <p>
-                {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab
-                repudiandae, explicabo voluptate et hic cum ratione a.
+                Want to get in touch with Mikey Collins for any enquiries? You
+                can reach him through email!
               </p>
               <a href="mailto:hello@mikeycollins.co.uk" type="button">
-                Read More
+                Email Mikey
               </a>
             </div>
           </div>
