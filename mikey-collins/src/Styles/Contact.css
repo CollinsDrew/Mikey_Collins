@@ -107,7 +107,7 @@
   padding: 0;
   color: #333;
 }
-.content a {
+.content .links {
   text-decoration: none;
   color: black;
   box-sizing: border-box;
@@ -116,7 +116,7 @@
   margin: 15px 0 0;
   display: inline-block;
 }
-a:hover {
+.links:hover {
   background: #333;
   color: whitesmoke;
   box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);

@@ -31,6 +31,7 @@ function Contact() {
               <a
                 href="https://www.facebook.com/mikeycollinsmusic/"
                 type="button"
+                className="links"
               >
                 Mikey's Facebook
               </a>
@@ -54,7 +55,11 @@ function Contact() {
                 behind-the-scenes content. Stay connected with Mikey by
                 following his Twitter page.
               </p>
-              <a href="https://twitter.com/MikeyColsmusic" type="button">
+              <a
+                href="https://twitter.com/MikeyColsmusic"
+                type="button"
+                className="links"
+              >
                 Mikey's Twitter
               </a>
             </div>
@@ -75,7 +80,11 @@ function Contact() {
                 connected with Mikey by following his Instagram page, where you
                 can find all the latest updates and photos of him.
               </p>
-              <a href="https://www.instagram.com/mikeycolsmusic/" type="button">
+              <a
+                href="https://www.instagram.com/mikeycolsmusic/"
+                type="button"
+                className="links"
+              >
                 Mikey's Insta
               </a>
             </div>
@@ -93,7 +102,11 @@ function Contact() {
                 Want to get in touch with Mikey Collins for any enquiries? You
                 can reach him through email!
               </p>
-              <a href="mailto:hello@mikeycollins.co.uk" type="button">
+              <a
+                href="mailto:hello@mikeycollins.co.uk"
+                type="button"
+                className="links"
+              >
                 Email Mikey
               </a>
             </div>
