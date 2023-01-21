@@ -1,11 +1,12 @@
 import React from "react";
 import "../Styles/Shows.css";
+import showImage from "../Images/shows.jpg";
 
 function Shows() {
   return (
     <div className="shows-container">
       <div className="shows-content">
-        <div className="parallax2"></div>
+        <div className="parallax3"></div>
         <h2>
           Unfortunately, there are no current shows or gigs scheduled at this
           time. However, please check back soon as we will be announcing new

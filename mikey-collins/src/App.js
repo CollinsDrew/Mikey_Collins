@@ -14,6 +14,7 @@ import { Shows } from "./Components/Shows";
 import { Press } from "./Components/Press";
 import { More } from "./Components/More";
 import { About } from "./Components/About";
+import { Footer } from "./Components/Footer";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/press" element={<Press />} />
           <Route path="/more" element={<More />} />
         </Routes>
+        {/* <Footer /> */}
       </div>
     </BrowserRouter>
   );
