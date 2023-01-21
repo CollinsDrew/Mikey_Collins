@@ -1,4 +1,4 @@
-/* .footer-container {
+.footer-container {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -98,9 +98,9 @@
     margin-top: 10px;
     margin-bottom: 20px;
   }
-} */
+}
 
-.footer-conatiner {
+/* .footer-conatiner {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -128,4 +128,4 @@ body {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-}
+} */
