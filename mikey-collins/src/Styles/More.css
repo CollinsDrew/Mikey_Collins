@@ -96,4 +96,22 @@
   .floating-btn {
     right: 10px;
   }
+
+  @media only screen and (max-device-width: 1366px) {
+    .course {
+      flex-wrap: wrap;
+    }
+
+    .course-preview {
+      display: flex;
+      justify-content: center;
+      max-width: initial;
+      width: 100%;
+      background-color: #666;
+    }
+
+    .more-title h1 {
+      text-align: center;
+    }
+  }
 }

@@ -313,7 +313,8 @@
 }
 
 @media only screen and (max-device-width: 1366px) {
-  .parallax {
+  .parallax,
+  .parallax2 {
     background-attachment: scroll;
     height: auto;
     aspect-ratio: 3;
