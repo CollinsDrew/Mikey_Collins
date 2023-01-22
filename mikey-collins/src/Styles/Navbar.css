@@ -28,6 +28,16 @@ header {
   color: var(--textColor);
 }
 
+nav {
+  background-color: var(--mainColor);
+  position: fixed;
+  padding: 13px 0;
+  justify-content: center;
+  width: 100%;
+  z-index: 100;
+  border-bottom: 1px solid #ff10f0;
+}
+
 nav h2 {
   margin: 0 1rem;
   color: var(--textColor);
@@ -78,6 +88,7 @@ nav {
     transform: translateY(-100vh);
     overflow: hidden;
     z-index: 2;
+    border: none;
   }
 
   header .responsive_nav {

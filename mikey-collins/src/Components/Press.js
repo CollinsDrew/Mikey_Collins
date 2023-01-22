@@ -9,7 +9,6 @@ function Press() {
   return (
     <div className="press-container">
       <div className="parallax"></div>
-      <br></br>
 
       <h1 className="page-title">Press and Reviews</h1>
       {/* <br></br>

@@ -56,3 +56,16 @@
     flex-direction: column;
   }
 }
+
+@media only screen and (max-device-width: 1366px) {
+  .review-card {
+    flex-wrap: wrap;
+    margin-right: 20px;
+    justify-content: center;
+  }
+
+  .page-title {
+    text-align: center;
+    margin: 1em auto;
+  }
+}
