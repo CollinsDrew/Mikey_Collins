@@ -29,7 +29,7 @@ function App() {
           <Route path="/press" element={<Press />} />
           <Route path="/more" element={<More />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </BrowserRouter>
   );

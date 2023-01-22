@@ -303,3 +303,38 @@
   transition: 0s;
   transform: translate(0, 5%);
 }
+
+@media only screen and (max-width: 768px) {
+  .cardContainer {
+    max-width: 100vw;
+    margin-left: 0;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+    height: auto;
+    aspect-ratio: 3;
+    padding-top: 0;
+  }
+
+  .home-page__banner {
+    height: auto;
+  }
+
+  .home-page__banner_hoick {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .home-page__banner_hoick img {
+    width: 100%;
+    height: auto;
+  }
+
+  .home-page__banner-text {
+    margin-right: 0;
+  }
+}
