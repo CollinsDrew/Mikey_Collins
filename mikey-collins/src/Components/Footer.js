@@ -28,6 +28,12 @@ function Footer() {
               className="socials"
             />
           </li>
+          <li>
+            <SocialIcon
+              url="https://www.instagram.com/dc_web_development_"
+              className="socials"
+            />
+          </li>
         </ul>
       </div>
     </div>
