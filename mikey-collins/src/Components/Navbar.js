@@ -15,23 +15,23 @@ function Navbar() {
     <header>
       {/* <h3>Mikey Collins Music</h3> */}
       <nav ref={navRef}>
-        <Link to="/">
+        <Link to="/" onClick={showNavbar}>
           <h2>Home</h2>
         </Link>
 
-        <Link to="/contact">
+        <Link to="/contact" onClick={showNavbar}>
           <h2>Contact</h2>
         </Link>
 
-        <Link to="/shows">
+        <Link to="/shows" onClick={showNavbar}>
           <h2>Shows</h2>
         </Link>
 
-        <Link to={"/press"}>
+        <Link to={"/press"} onClick={showNavbar}>
           <h2>Press</h2>
         </Link>
 
-        <Link to={"/more"}>
+        <Link to={"/more"} onClick={showNavbar}>
           <h2>Recent Work</h2>
         </Link>
 

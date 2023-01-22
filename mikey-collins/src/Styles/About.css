@@ -16,7 +16,7 @@
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position-y: 80px;
+  /* background-position-y: 80px; */
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -337,5 +337,11 @@
 
   .home-page__banner-text {
     margin-right: 0;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) {
+  .parallax {
+    background-position-y: 80px;
   }
 }
