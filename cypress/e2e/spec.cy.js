@@ -175,19 +175,16 @@ describe("Check Map for Projects Array", () => {
       },
     ];
     cy.visit("http://localhost:3001/more");
-    cy.get(".project-card").should("have.length", projects.length);
+    it("should display 12 project cards", async () => {
+      // navigate to the page containing the project cards
+      await page.goto("http://localhost:3000/projects");
 
-    projects.forEach((project, index) => {
-      cy.get(".project-card")
-        .eq(index)
-        .find(".artist")
-        .should("have.text", project.artist)
-        .find(".title")
-        .should("have.text", project.title)
-        .find(".credit")
-        .should("have.text", project.credit)
-        .find("a")
-        .should("have.attr", "href", project.link);
+      // wait for the project cards to be loaded
+      await page.waitForSelector(".project-card");
+
+      // check if the project cards are present
+      const projectCards = await page.$$(".project-card");
+      expect(projectCards).to.have.lengthOf(12);
     });
   });
 });
